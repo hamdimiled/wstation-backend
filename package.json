@@ -1,0 +1,39 @@
+{
+  "name": "smart-meteo",
+  "version": "1.0.0",
+  "description": "smart meteo app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "graphql",
+    "smart-meteo",
+    "app"
+  ],
+  "author": "sofiatech",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.0.5",
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.5",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
